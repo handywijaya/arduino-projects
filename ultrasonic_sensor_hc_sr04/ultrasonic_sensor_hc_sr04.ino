@@ -39,6 +39,8 @@ long microsecondsToInches(long microseconds) {
    return microseconds / 74 / 2;
 }
 
+// speed of sound is 343m/s in dry air 20 deg C
+// so it is 0.0343cm/microsecs
 long microsecondsToCentimeters(long microseconds) {
-   return microseconds / 29 / 2;
+   return microseconds / 2 * 0.0343;
 }
