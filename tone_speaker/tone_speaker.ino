@@ -6,8 +6,8 @@
   circuit:
   - 8 ohm speaker on digital pin 8
 
-  Base source code by Tom Igoe
-  Melody, note, and some codes adjustment by Handy Wijaya
+  Base source code by Tom Igoe https://www.arduino.cc/en/Tutorial/ToneMelody
+  Melody, note, and some code adjustments by Handy Wijaya
 */
 
 #include "pitches.h"
